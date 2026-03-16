@@ -47,7 +47,7 @@
     + Return the image or the URL of the generated image
     
     ---
-## Tecnologies included
+## Technologies included
 
 + python/fastapi
 + docker
