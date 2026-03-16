@@ -1,2 +1,16 @@
+[project]
+name = "makeItRealAPI"
+version = "0.1.0"
+description = "FastAPI backend"
+authors = [
+    {name = "Arthur Fleischman"}
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "fastapi[standard]",
+]
+
 [tool.fastapi]
 entrypoint = "app.main:app"
