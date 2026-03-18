@@ -14,3 +14,7 @@ dependencies = [
 
 [tool.fastapi]
 entrypoint = "app.main:app"
+
+[virtualenvs]
+create = true
+in-project = true
